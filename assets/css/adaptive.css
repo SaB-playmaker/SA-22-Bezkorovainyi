@@ -1,0 +1,156 @@
+
+@media only screen and (max-width:1500px){
+    .intro{
+        width: 100%;
+    }
+    .topnav{
+        display: none;
+    }
+    .intro__suptitle {
+       
+        font-size: 50px;  
+    }
+    .nav {
+        font-size: 14px;
+       text-align: center;
+    }
+    .intro__title {
+       
+        font-size: 90px;
+        font-weight: 700;
+        
+        line-height: 1;
+    }
+}
+@media only screen and (max-width:992px){
+    .intro{
+        width: 100%;
+    }
+    .intro__suptitle {
+       
+        font-size: 42px;  
+    }
+    .nav {
+        font-size: 14px;
+        text-align: center;
+    }
+    .intro__title {
+       
+        font-size: 60px;
+        font-weight: 700;
+        
+        line-height: 1;
+    }
+}
+@media only screen and (max-width:768px){
+    .intro{
+        width: 100%;
+    }
+    .intro__suptitle {
+       
+        font-size: 32px;  
+    }
+    .nav {
+        font-size: 12px;
+       text-align: center;
+    }
+    .intro__title {
+       
+        font-size: 40px;
+        font-weight: 400;
+        
+        line-height: 1;
+    }
+    .header__logo {
+        font-size: 20px;
+        font-weight: 500;
+       
+    }
+    h2 {
+       
+        font-size: 1.15em;
+       
+    }
+    h3 {
+        
+        font-size: 1em;
+        
+    }
+    p{
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width:480px){
+    img {
+      display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .topnav{
+        
+        display: block;
+    }
+    .header__logo {
+        display: none;
+    }
+    .topnav #myLinks {
+        display: none;
+        opacity: 10;
+      }
+}
+@media only screen and (max-width:320px){
+    element.style {
+        display: block;
+        opacity: 10;
+    }
+    .nav{
+        display: none;
+        opacity: 10;
+    }
+    .topnav{
+        font: 1em sans-serif;
+        display: block;
+        opacity: 10;
+    }
+    .header__logo {
+        display: none;
+    }
+    .intro__suptitle {
+       
+        font-size: 22px;  
+    }
+    .nav {
+        font-size: 8px;
+       
+    }
+    .intro__title {
+       
+        font-size: 30px;
+        font-weight: 300;
+        
+        line-height: 1;
+    }
+    .header__logo {
+        font-size: 15px;
+        font-weight: 300;
+       
+    }
+    h2 {
+       
+        font-size: 1.05em;
+       
+    }
+    h3 {
+        
+        font-size: 0.9em;
+        
+    }
+    p{
+        font-size: 0.8em;
+    }
+    .topnav #myLinks {
+        display: none;
+        opacity: 10;
+      }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/adaptive.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>BloodDonation</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+    <div class="topnav">
+        <a href="#home" class="active"></a>
+        
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+          <a href="#news">Donors</a>
+          <a href="#contact">Information</a>
+          <a href="register.html">Contact</a>
+        </div>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+            <div class="header__inner">
+                <div class="header__logo">BD.com</div>
+    
+               
+    
+                <nav class="nav">
+                   
+                    <ul class="topmenu">
+                      <li> <a class="nav__link " href="index.html">Home</a></li>
+                      <li>  <a class="nav__link" href="#">Donors</a>
+                        <ul class="submenu">
+                          <li><a href="">Category</a></li>
+                          <li><a href="">Illnes</a></li>
+                          <li><a href="">Archive</a></li>
+                          <li><a href="">Register</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="nav__link" href="#">Information</a></li>
+                      <li> <a class="nav__link active" href="register.html">Contact</a></li>
+                    </ul>
+    
+    
+                </nav>
+            </div>
+        </div>
+    <div class="fullscreen-bg">
+        <div class="overlay">
+            <h2>You can call us on:<br>0300 123 23 23<br>To donate by phone or to get<br>assistance with your donation,<br>please contact us at 1-800-HELP <br>NOW (1-800-435-7669).<br>You can also leave <br>a donation application below</h2>
+          
+            
+        </div>
+        <video loop="" muted="" autoplay="" poster="video/plane.jpg" class="fullscreen-bg__video">
+            <source src="assets/images/Patient donating blood.mp4" type="video/mp4">
+            <source src="assets/images/Patient donating blood.mp4" type="video/webm">
+        </video>
+    </div>
+    
+</div>
+
+
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+      <div class="col-75">
+        <input type="text" id="ill" name="illnes" placeholder="Your ilneses in the past..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="group">Group</label>
+      </div>
+      <div class="col-75">
+        <select id="group" name="group">
+          <option value="first">I group</option>
+          <option value="second">II group</option>
+          <option value="third">III group</option>
+          <option value="fourth">IV group</option>
+        </select>
+        <div class="col-75">
+          <select id="Rezus" name="Rezus">
+            <option value="plus">Rezus:+</option>
+            <option value="minus">Rezus:-</option> 
+          </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+           
+    
+
+</div>
+</header>
+ 
+  
+  
+  
+</body>
+</html>
