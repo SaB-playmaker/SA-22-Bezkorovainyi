@@ -433,4 +433,65 @@ input[type=submit] {
   }
 
 }
+.container_shirt{
+	display: flex;
+	width: 1300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
 
+.block_shirt{
+	background: white;
+	background: linear-gradient(180deg, rgb(104, 102, 102) 8%, rgba(200,171,0,1) 29%, rgba(217,116,0,1) 54%, rgba(200,171,0,1) 74%, rgb(104, 102, 102) 94%);
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-shrink: 0px;
+	box-sizing: border-box;
+	flex-direction: column;
+	border-radius: 30px;
+	transition: padding 1s ease 0s;
+}
+
+.block_shirt:hover{
+	padding: 0 15px 0 15px;
+}
+
+.home_away{
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 15px;
+	color: #ffffff;
+}
+
+.icon_place {
+	padding-left: 20px;
+	width: 50px;
+}
+
+.photo_shirt{
+	width: 250px;
+	margin: 0 0 10px 0;
+	transition: width 1s ease 0s;
+}
+
+.photo_shirt:hover{
+	width: 290px;
+}
+
+.block_shirt p {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.price{
+	display: inline;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	color: white;
+}
