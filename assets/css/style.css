@@ -433,7 +433,7 @@ input[type=submit] {
   }
 
 }
-.container_shirt{
+.container_donate{
 	display: flex;
 	width: 1300px;
 	margin: 0 auto;
@@ -443,7 +443,7 @@ input[type=submit] {
 	flex-wrap: wrap;
 }
 
-.block_shirt{
+.block_donate{
 	background: white;
 	background: linear-gradient(180deg, rgb(104, 102, 102) 8%, rgba(200,171,0,1) 29%, rgba(217,116,0,1) 54%, rgba(200,171,0,1) 74%, rgb(104, 102, 102) 94%);
 	background-color: white;
@@ -457,7 +457,7 @@ input[type=submit] {
 	transition: padding 1s ease 0s;
 }
 
-.block_shirt:hover{
+.block_donate:hover{
 	padding: 0 15px 0 15px;
 }
 
@@ -474,17 +474,17 @@ input[type=submit] {
 	width: 50px;
 }
 
-.photo_shirt{
+.photo_donate{
 	width: 250px;
 	margin: 0 0 10px 0;
 	transition: width 1s ease 0s;
 }
 
-.photo_shirt:hover{
+.photo_donate:hover{
 	width: 290px;
 }
 
-.block_shirt p {
+.block_donate p {
 	font-size: 20px;
 	font-weight: 600;
 }
